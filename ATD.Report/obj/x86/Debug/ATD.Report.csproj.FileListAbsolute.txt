@@ -1,0 +1,8 @@
+D:\Project\ATD\ATD\ATD.Report\bin\Debug\ATD.Report.exe
+D:\Project\ATD\ATD\ATD.Report\bin\Debug\ATD.Report.pdb
+D:\Project\ATD\ATD\ATD.Report\obj\x86\Debug\ATD.Report.Properties.Resources.resources
+D:\Project\ATD\ATD\ATD.Report\obj\x86\Debug\ATD.Report.csproj.GenerateResource.Cache
+D:\Project\ATD\ATD\ATD.Report\obj\x86\Debug\ATD.Report.exe
+D:\Project\ATD\ATD\ATD.Report\obj\x86\Debug\ATD.Report.pdb
+D:\Project\ATD\ATD\ATD.Report\bin\Debug\ATD.Report.exe.config
+D:\Project\ATD\ATD\ATD.Report\obj\x86\Debug\ATD.Report.csprojResolveAssemblyReference.cache

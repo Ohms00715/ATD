@@ -1,0 +1,8 @@
+D:\Project\ATD\ATD\ATD.Data\bin\Debug\ATD.Data.dll.config
+D:\Project\ATD\ATD\ATD.Data\bin\Debug\ATD.Data.dll
+D:\Project\ATD\ATD\ATD.Data\bin\Debug\ATD.Data.pdb
+D:\Project\ATD\ATD\ATD.Data\obj\x86\Debug\ATD.Data.Properties.Resources.resources
+D:\Project\ATD\ATD\ATD.Data\obj\x86\Debug\ATD.Data.csproj.GenerateResource.Cache
+D:\Project\ATD\ATD\ATD.Data\obj\x86\Debug\ATD.Data.dll
+D:\Project\ATD\ATD\ATD.Data\obj\x86\Debug\ATD.Data.pdb
+D:\Project\ATD\ATD\ATD.Data\obj\x86\Debug\ATD.Data.csprojResolveAssemblyReference.cache

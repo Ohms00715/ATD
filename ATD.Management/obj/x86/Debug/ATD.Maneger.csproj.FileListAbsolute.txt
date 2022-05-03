@@ -1,0 +1,10 @@
+D:\Project\ATD\ATD\ATD.Management\bin\Debug\ATD.Management.dll.config
+D:\Project\ATD\ATD\ATD.Management\bin\Debug\ATD.Management.dll
+D:\Project\ATD\ATD\ATD.Management\bin\Debug\ATD.Management.pdb
+D:\Project\ATD\ATD\ATD.Management\bin\Debug\ATD.Data.dll
+D:\Project\ATD\ATD\ATD.Management\bin\Debug\ATD.Data.pdb
+D:\Project\ATD\ATD\ATD.Management\obj\x86\Debug\ATD.Maneger.csprojResolveAssemblyReference.cache
+D:\Project\ATD\ATD\ATD.Management\obj\x86\Debug\ATD.Management.Properties.Resources.resources
+D:\Project\ATD\ATD\ATD.Management\obj\x86\Debug\ATD.Maneger.csproj.GenerateResource.Cache
+D:\Project\ATD\ATD\ATD.Management\obj\x86\Debug\ATD.Management.dll
+D:\Project\ATD\ATD\ATD.Management\obj\x86\Debug\ATD.Management.pdb

@@ -1,0 +1,16 @@
+D:\Project\ATD\ATD\ATD.Data\bin\Release\ATD.Data.dll.config
+D:\Project\ATD\ATD\ATD.Data\bin\Release\ATD.Data.dll
+D:\Project\ATD\ATD\ATD.Data\bin\Release\ATD.Data.pdb
+D:\Project\ATD\ATD\ATD.Data\obj\x86\Release\ATD.Data.Properties.Resources.resources
+D:\Project\ATD\ATD\ATD.Data\obj\x86\Release\ATD.Data.csproj.GenerateResource.Cache
+D:\Project\ATD\ATD\ATD.Data\obj\x86\Release\ATD.Data.dll
+D:\Project\ATD\ATD\ATD.Data\obj\x86\Release\ATD.Data.pdb
+D:\Project\ATD\ATD\ATD.Data\obj\x86\Release\ATD.Data.csprojResolveAssemblyReference.cache
+D:\Project\ATD_NEW\ATD\ATD.Data\bin\Release\ATD.Data.dll.config
+D:\Project\ATD_NEW\ATD\ATD.Data\bin\Release\ATD.Data.dll
+D:\Project\ATD_NEW\ATD\ATD.Data\bin\Release\ATD.Data.pdb
+D:\Project\ATD_NEW\ATD\ATD.Data\obj\x86\Release\ATD.Data.csprojResolveAssemblyReference.cache
+D:\Project\ATD_NEW\ATD\ATD.Data\obj\x86\Release\ATD.Data.Properties.Resources.resources
+D:\Project\ATD_NEW\ATD\ATD.Data\obj\x86\Release\ATD.Data.csproj.GenerateResource.Cache
+D:\Project\ATD_NEW\ATD\ATD.Data\obj\x86\Release\ATD.Data.dll
+D:\Project\ATD_NEW\ATD\ATD.Data\obj\x86\Release\ATD.Data.pdb

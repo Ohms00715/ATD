@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E165550B-5070-49BF-B41A-10B2593719D6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ATD.Windows</RootNamespace>
+    <AssemblyName>ATD.Windows</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ComboBoxItem.cs" />
+    <Compile Include="REP303ReportVacationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REP303ReportVacationForm.Designer.cs">
+      <DependentUpon>REP303ReportVacationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REP301ReportEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REP301ReportEmployeeForm.Designer.cs">
+      <DependentUpon>REP301ReportEmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REP302AttendenceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REP302AttendenceForm.Designer.cs">
+      <DependentUpon>REP302AttendenceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TRN202DataFilesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TRN202DataFilesForm.Designer.cs">
+      <DependentUpon>TRN202DataFilesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAS130GenWrkDaysForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAS130GenWrkDaysForm.designer.cs">
+      <DependentUpon>MAS130GenWrkDaysForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAS110SetShiftMasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAS110SetShiftMasterForm.designer.cs">
+      <DependentUpon>MAS110SetShiftMasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAS120SetWorkCalendarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAS120SetWorkCalendarForm.designer.cs">
+      <DependentUpon>MAS120SetWorkCalendarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="INC150MasterPlanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INC150MasterPlanForm.designer.cs">
+      <DependentUpon>INC150MasterPlanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAS101EmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAS101EmployeeForm.Designer.cs">
+      <DependentUpon>MAS101EmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAS102Employee_TitleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAS102Employee_TitleForm.Designer.cs">
+      <DependentUpon>MAS102Employee_TitleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAS103Employee_DepartmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAS103Employee_DepartmentForm.Designer.cs">
+      <DependentUpon>MAS103Employee_DepartmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAS104Employee_TypeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAS104Employee_TypeForm.Designer.cs">
+      <DependentUpon>MAS104Employee_TypeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAS106Work_DayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAS106Work_DayForm.Designer.cs">
+      <DependentUpon>MAS106Work_DayForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAS105VacationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAS105VacationForm.Designer.cs">
+      <DependentUpon>MAS105VacationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TRN201Import_FilesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TRN201Import_FilesForm.Designer.cs">
+      <DependentUpon>TRN201Import_FilesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlBottom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlBottom.Designer.cs">
+      <DependentUpon>UserControlBottom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlTop.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlTop.Designer.cs">
+      <DependentUpon>UserControlTop.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="REP303ReportVacationForm.resx">
+      <DependentUpon>REP303ReportVacationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REP302AttendenceForm.resx">
+      <DependentUpon>REP302AttendenceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportATD.rdlc" />
+    <EmbeddedResource Include="ReportEMP.rdlc" />
+    <EmbeddedResource Include="REP301ReportEmployeeForm.resx">
+      <DependentUpon>REP301ReportEmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TRN202DataFilesForm.resx">
+      <DependentUpon>TRN202DataFilesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAS130GenWrkDaysForm.resx">
+      <DependentUpon>MAS130GenWrkDaysForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAS110SetShiftMasterForm.resx">
+      <DependentUpon>MAS110SetShiftMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAS120SetWorkCalendarForm.resx">
+      <DependentUpon>MAS120SetWorkCalendarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INC150MasterPlanForm.resx">
+      <DependentUpon>INC150MasterPlanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAS101EmployeeForm.resx">
+      <DependentUpon>MAS101EmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAS102Employee_TitleForm.resx">
+      <DependentUpon>MAS102Employee_TitleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAS103Employee_DepartmentForm.resx">
+      <DependentUpon>MAS103Employee_DepartmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAS104Employee_TypeForm.resx">
+      <DependentUpon>MAS104Employee_TypeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAS106Work_DayForm.resx">
+      <DependentUpon>MAS106Work_DayForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAS105VacationForm.resx">
+      <DependentUpon>MAS105VacationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TRN201Import_FilesForm.resx">
+      <DependentUpon>TRN201Import_FilesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlBottom.resx">
+      <DependentUpon>UserControlBottom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlTop.resx">
+      <DependentUpon>UserControlTop.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\DataSources\ATD.Report.DataSet1+ATD_EmployeeDataTable.datasource" />
+    <None Include="Properties\DataSources\ATD.Report.DataSet1+ATD_EmployeeRow.datasource" />
+    <None Include="Properties\DataSources\ATD.Report.DataSet1+ATD_EmployeeRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\ATD.Report.DataSet1+ATD_EmployeeRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\ATD.Report.DataSet1.datasource" />
+    <None Include="Properties\DataSources\ATD.Report.DataSet1TableAdapters.ATD_EmployeeTableAdapter.datasource" />
+    <None Include="Properties\DataSources\ATD.Report.DataSet1TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\ATD.Report.DataSet1TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\ATD.Report.DataSet2+ATDDataTable.datasource" />
+    <None Include="Properties\DataSources\ATD.Report.DataSet2+ATDRow.datasource" />
+    <None Include="Properties\DataSources\ATD.Report.DataSet2+ATDRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\ATD.Report.DataSet2+ATDRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\ATD.Report.DataSet2.datasource" />
+    <None Include="Properties\DataSources\ATD.Report.DataSetATD.datasource" />
+    <None Include="Properties\DataSources\ATD.Report.DataSetVacation+ATD_VacationDataTable.datasource" />
+    <None Include="Properties\DataSources\ATD.Report.DataSetVacation+ATD_VacationRow.datasource" />
+    <None Include="Properties\DataSources\ATD.Report.DataSetVacation+ATD_VacationRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\ATD.Report.DataSetVacation+ATD_VacationRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\ATD.Report.DataSetVacation.datasource" />
+    <None Include="Properties\DataSources\ATD.Report.DataSetVacationTableAdapters.ATD_VacationTableAdapter.datasource" />
+    <None Include="Properties\DataSources\ATD.Report.DataSetVacationTableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\ATD.Report.DataSetVacationTableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\ATD.Report.Form1.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ATD.Management\ATD.Management.csproj">
+      <Project>{610C8FFB-DDE6-4D6D-8E74-4E1A89DF27FA}</Project>
+      <Name>ATD.Management</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ATD.Report\ATD.Report.csproj">
+      <Project>{17C1120E-F015-40A5-8FDB-046BCC46F3ED}</Project>
+      <Name>ATD.Report</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer-icons-clip-art-png-favpng-M070FyPc8TCR8X7L1JpvGcVe3_t.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SelectALL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_001_filter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\00Previewfile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001-copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001-excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001-folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001-funnel_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001power-off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\002-delete-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003-add24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003-refresh24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\005-delete-24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\005-remove-24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\009-binocular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\009-save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\011-clean-24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\999-folder-24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\999-mail-24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImportExcel32.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

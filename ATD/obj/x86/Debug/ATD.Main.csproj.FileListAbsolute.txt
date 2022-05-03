@@ -1,0 +1,16 @@
+D:\Project\ATD\ATD\ATD\obj\x86\Debug\ATD.Main.csprojResolveAssemblyReference.cache
+D:\Project\ATD\ATD\ATD\obj\x86\Debug\ATD.MDI.resources
+D:\Project\ATD\ATD\ATD\obj\x86\Debug\ATD.Properties.Resources.resources
+D:\Project\ATD\ATD\ATD\obj\x86\Debug\ATD.Main.csproj.GenerateResource.Cache
+D:\Project\ATD\ATD\ATD\bin\Debug\ATD.exe.config
+D:\Project\ATD\ATD\ATD\bin\Debug\ATD.exe
+D:\Project\ATD\ATD\ATD\bin\Debug\ATD.pdb
+D:\Project\ATD\ATD\ATD\bin\Debug\ATD.Windows.exe
+D:\Project\ATD\ATD\ATD\bin\Debug\ATD.Management.dll
+D:\Project\ATD\ATD\ATD\bin\Debug\ATD.Data.dll
+D:\Project\ATD\ATD\ATD\bin\Debug\ATD.Windows.pdb
+D:\Project\ATD\ATD\ATD\bin\Debug\ATD.Management.pdb
+D:\Project\ATD\ATD\ATD\bin\Debug\ATD.Data.pdb
+D:\Project\ATD\ATD\ATD\obj\x86\Debug\ATD.exe
+D:\Project\ATD\ATD\ATD\obj\x86\Debug\ATD.pdb
+D:\Project\ATD\ATD\ATD\obj\x86\Debug\ATD.UCT.resources

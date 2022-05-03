@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet2" targetNamespace="http://tempuri.org/DataSet2.xsd" xmlns:mstns="http://tempuri.org/DataSet2.xsd" xmlns="http://tempuri.org/DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ISIDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ISIDBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ATD.Report.Properties.Settings.GlobalReference.Default.ISIDBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet2" msprop:Generator_UserDSName="DataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ATD" msprop:Generator_TableClassName="ATDDataTable" msprop:Generator_TableVarName="tableATD" msprop:Generator_RowChangedName="ATDRowChanged" msprop:Generator_TablePropName="ATD" msprop:Generator_RowDeletingName="ATDRowDeleting" msprop:Generator_RowChangingName="ATDRowChanging" msprop:Generator_RowEvHandlerName="ATDRowChangeEventHandler" msprop:Generator_RowDeletedName="ATDRowDeleted" msprop:Generator_RowClassName="ATDRow" msprop:Generator_UserTableName="ATD" msprop:Generator_RowEvArgName="ATDRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Remarks" msprop:Generator_ColumnVarNameInTable="columnRemarks" msprop:Generator_ColumnPropNameInRow="Remarks" msprop:Generator_ColumnPropNameInTable="RemarksColumn" msprop:Generator_UserColumnName="Remarks" type="xs:string" minOccurs="0" />
+              <xs:element name="OTDay" msprop:Generator_ColumnVarNameInTable="columnOTDay" msprop:Generator_ColumnPropNameInRow="OTDay" msprop:Generator_ColumnPropNameInTable="OTDayColumn" msprop:Generator_UserColumnName="OTDay" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" type="xs:string" minOccurs="0" />
+              <xs:element name="WRK_NAME" msprop:Generator_ColumnVarNameInTable="columnWRK_NAME" msprop:Generator_ColumnPropNameInRow="WRK_NAME" msprop:Generator_ColumnPropNameInTable="WRK_NAMEColumn" msprop:Generator_UserColumnName="WRK_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="EMP_ID" msprop:Generator_ColumnVarNameInTable="columnEMP_ID" msprop:Generator_ColumnPropNameInRow="EMP_ID" msprop:Generator_ColumnPropNameInTable="EMP_IDColumn" msprop:Generator_UserColumnName="EMP_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnPropNameInTable="TitleColumn" msprop:Generator_UserColumnName="Title" type="xs:string" minOccurs="0" />
+              <xs:element name="EMP_Resigned_Flag" msprop:Generator_ColumnVarNameInTable="columnEMP_Resigned_Flag" msprop:Generator_ColumnPropNameInRow="EMP_Resigned_Flag" msprop:Generator_ColumnPropNameInTable="EMP_Resigned_FlagColumn" msprop:Generator_UserColumnName="EMP_Resigned_Flag" type="xs:string" minOccurs="0" />
+              <xs:element name="EMP_FName" msprop:Generator_ColumnVarNameInTable="columnEMP_FName" msprop:Generator_ColumnPropNameInRow="EMP_FName" msprop:Generator_ColumnPropNameInTable="EMP_FNameColumn" msprop:Generator_UserColumnName="EMP_FName" type="xs:string" minOccurs="0" />
+              <xs:element name="EMP_LName" msprop:Generator_ColumnVarNameInTable="columnEMP_LName" msprop:Generator_ColumnPropNameInRow="EMP_LName" msprop:Generator_ColumnPropNameInTable="EMP_LNameColumn" msprop:Generator_UserColumnName="EMP_LName" type="xs:string" minOccurs="0" />
+              <xs:element name="Day_or_Night" msprop:Generator_ColumnVarNameInTable="columnDay_or_Night" msprop:Generator_ColumnPropNameInRow="Day_or_Night" msprop:Generator_ColumnPropNameInTable="Day_or_NightColumn" msprop:Generator_UserColumnName="Day_or_Night" type="xs:string" minOccurs="0" />
+              <xs:element name="EMP_Register_Status" msprop:Generator_ColumnVarNameInTable="columnEMP_Register_Status" msprop:Generator_ColumnPropNameInRow="EMP_Register_Status" msprop:Generator_ColumnPropNameInTable="EMP_Register_StatusColumn" msprop:Generator_UserColumnName="EMP_Register_Status" type="xs:string" minOccurs="0" />
+              <xs:element name="TeamCode" msprop:Generator_ColumnVarNameInTable="columnTeamCode" msprop:Generator_ColumnPropNameInRow="TeamCode" msprop:Generator_ColumnPropNameInTable="TeamCodeColumn" msprop:Generator_UserColumnName="TeamCode" type="xs:string" minOccurs="0" />
+              <xs:element name="TeamDesc" msprop:Generator_ColumnVarNameInTable="columnTeamDesc" msprop:Generator_ColumnPropNameInRow="TeamDesc" msprop:Generator_ColumnPropNameInTable="TeamDescColumn" msprop:Generator_UserColumnName="TeamDesc" type="xs:string" minOccurs="0" />
+              <xs:element name="WrkDay" msprop:Generator_ColumnVarNameInTable="columnWrkDay" msprop:Generator_ColumnPropNameInRow="WrkDay" msprop:Generator_ColumnPropNameInTable="WrkDayColumn" msprop:Generator_UserColumnName="WrkDay" type="xs:string" minOccurs="0" />
+              <xs:element name="WrkCode" msprop:Generator_ColumnVarNameInTable="columnWrkCode" msprop:Generator_ColumnPropNameInRow="WrkCode" msprop:Generator_ColumnPropNameInTable="WrkCodeColumn" msprop:Generator_UserColumnName="WrkCode" type="xs:string" minOccurs="0" />
+              <xs:element name="WorkTIME" msprop:Generator_ColumnVarNameInTable="columnWorkTIME" msprop:Generator_ColumnPropNameInRow="WorkTIME" msprop:Generator_ColumnPropNameInTable="WorkTIMEColumn" msprop:Generator_UserColumnName="WorkTIME" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeFrom" msprop:Generator_ColumnVarNameInTable="columnTimeFrom" msprop:Generator_ColumnPropNameInRow="TimeFrom" msprop:Generator_ColumnPropNameInTable="TimeFromColumn" msprop:Generator_UserColumnName="TimeFrom" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeTo" msprop:Generator_ColumnVarNameInTable="columnTimeTo" msprop:Generator_ColumnPropNameInRow="TimeTo" msprop:Generator_ColumnPropNameInTable="TimeToColumn" msprop:Generator_UserColumnName="TimeTo" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalMin" msprop:Generator_ColumnVarNameInTable="columnTotalMin" msprop:Generator_ColumnPropNameInRow="TotalMin" msprop:Generator_ColumnPropNameInTable="TotalMinColumn" msprop:Generator_UserColumnName="TotalMin" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeIn_" msprop:Generator_ColumnVarNameInTable="columnTimeIn_" msprop:Generator_ColumnPropNameInRow="TimeIn_" msprop:Generator_ColumnPropNameInTable="TimeIn_Column" msprop:Generator_UserColumnName="TimeIn_" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeOut_" msprop:Generator_ColumnVarNameInTable="columnTimeOut_" msprop:Generator_ColumnPropNameInRow="TimeOut_" msprop:Generator_ColumnPropNameInTable="TimeOut_Column" msprop:Generator_UserColumnName="TimeOut_" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalHours" msprop:Generator_ColumnVarNameInTable="columnTotalHours" msprop:Generator_ColumnPropNameInRow="TotalHours" msprop:Generator_ColumnPropNameInTable="TotalHoursColumn" msprop:Generator_UserColumnName="TotalHours" type="xs:string" minOccurs="0" />
+              <xs:element name="ShiftWrkDay" msprop:Generator_ColumnVarNameInTable="columnShiftWrkDay" msprop:Generator_ColumnPropNameInRow="ShiftWrkDay" msprop:Generator_ColumnPropNameInTable="ShiftWrkDayColumn" msprop:Generator_UserColumnName="ShiftWrkDay" type="xs:string" minOccurs="0" />
+              <xs:element name="EMP_Type_Desc" msprop:Generator_ColumnVarNameInTable="columnEMP_Type_Desc" msprop:Generator_ColumnPropNameInRow="EMP_Type_Desc" msprop:Generator_ColumnPropNameInTable="EMP_Type_DescColumn" msprop:Generator_UserColumnName="EMP_Type_Desc" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
